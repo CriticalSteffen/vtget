@@ -14,8 +14,8 @@ def main():
     """Download the file specified on the command line."""
     # Parse command line arguments for file hashes.
     parser = argparse.ArgumentParser(
-        description="Download files from VirusTotal.",
-        epilog='Example: vtget.py "f0d1e2f3e4d5c6b7a8b9a9b9c9d9e9f"',
+        description="Download files from VirusTotal. Requires API key in `api.key` file.",
+        epilog='Example: vtget.py "f970438c1f06e2431a11cecd4553c50b"',
     )
     parser.add_argument(
         "hash",
