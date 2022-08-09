@@ -153,3 +153,4 @@ cython_debug/
 
 # VTGet Files
 api.key
+.DS_Store
